@@ -7,9 +7,9 @@
 # The demo shows two developers filing reports across
 # two sprints and viewing the history of each.
 
-require_relative "developer"
-require_relative "bug_report"
-require_relative "tracker"
+require_relative "lib/developer"
+require_relative "lib/bug_report"
+require_relative "lib/tracker"
 
 tracker = Tracker.new("SearchSphere")
 miguel  = Developer.new("Miguel Perez", "miguel@searchsphere.io", "lead")
